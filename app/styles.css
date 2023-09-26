@@ -6,6 +6,7 @@ body {
   margin: 0;
   height: 100vh;
   font-size: 26px;
+  color: rgba(255, 255, 255, 0.747);
 }
 
 .main_body {
@@ -93,4 +94,42 @@ img {
 
 .img_content:hover > * {
   transform: translateY(0px);
+}
+
+.emoji {
+  color: black;
+}
+
+.link {
+  color: teal;
+}
+
+.portfolio {
+  justify-items: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.education {
+  font-size: 18px;
+}
+
+.work {
+  font-size: 18px;
+}
+
+.projects {
+  font-size: 18px;
+}
+
+.rpg {
+
+}
+
+.flappy {
+
+}
+
+.collector {
+  
 }
