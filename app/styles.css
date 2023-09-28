@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  height: 325vh;
   font-size: 26px;
   color: rgba(255, 255, 255, 0.747);
 }
@@ -22,6 +22,7 @@ body {
   height: 100%;
   padding: 30px;
   border: 1px solid;
+  text-align: center;
 }
 
 .left {
@@ -38,64 +39,6 @@ body {
   background: green;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.image {
-  width: 300px;
-  position: relative;
-}
-
-img {
-  width: 100%;
-  display: block;
-  margin: auto;
-}
-
-.img_content {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0;
-  transition: 0.6s;
-}
-.img_content:hover {
-  opacity: 1;
-}
-
-.img_content h1 {
-  font-size: 45px;
-  color: #ffe100;
-  margin-bottom: 15px;
-}
-
-.img_content p {
-  font-size: 19px;
-  color: #fff;
-}
-
-.img_content > * {
-  transform: translateY(25px);
-  transition: transform 0.6s;
-}
-
-.img_content:hover > * {
-  transform: translateY(0px);
-}
-
 .emoji {
   color: black;
 }
@@ -105,31 +48,51 @@ img {
 }
 
 .portfolio {
-  justify-items: center;
-  align-items: center;
   padding-left: 30px;
+  width: 600px;
 }
 
-.education {
-  font-size: 18px;
-}
-
-.work {
-  font-size: 18px;
-}
-
-.projects {
-  font-size: 18px;
+.titles {
+  font-size: 25px;
+  color: greenyellow;
 }
 
 .rpg {
-
+  width: 600px;
+  height: 550px;
 }
 
 .flappy {
-
+  width: 600px;
+  height: 500px;
 }
 
 .collector {
-  
+  width: 600px;
+  height: 350px;
+}
+
+.heading {
+  font-size: 20px;
+  color: gold;
+}
+
+#story {
+  font-size: 20px;
+  width: 600px;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#name {
+  color: gold;
+}
+
+.info {
+  font-size: 18px;
 }

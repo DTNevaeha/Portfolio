@@ -46,78 +46,130 @@
   <body id="indexPage">
     <div class="main_body">
       <div class="split left">
-        <div class="wrapper">
-          <div class="image">
-            <img src="./app/images/BE.png" alt="BE" />
-            <div class="img_content">
-              <h1>Blake Ellsworth</h1>
-              <p>Software Developer</p>
-            </div>
-            <h1>Blake Ellsworth</h1>
-            <p>Welcome to my portfolio.</p>
-            <p>
-              I'm a software developer with experience in robotics and machine
-              learning
-            </p>
-            <p>I have a passion for creation and development of video games.</p>
-            <a class="emoji" href="https://github.com/DTNevaeha"
-              ><i class="fa fa-github" style="font-size: 35px"></i
-            ></a>
-            <a
-              class="emoji"
-              href="https://www.linkedin.com/in/blake-ellsworth-146481105/"
-              ><i class="fa fa-linkedin-square" style="font-size: 35px"></i
-            ></a>
-          </div>
-        </div>
+        <img id="logo" src="./app/images/BE.png" alt="BE" />
+        <h1 id="name">Blake Ellsworth</h1>
+        <p>Welcome to my portfolio.</p>
+        <p id="intro">
+          As Software Developer, I have established myself as a versatile 
+          professional with expertise in developing and delivering high-quality 
+          software solutions across various domains.<br>
+          With a strong foundation in programming, I am dedicated to meeting 
+          clients' unique requirements and exceeding their expectations.<br>
+          My experience encompasses designing, coding, testing, and deploying 
+          applications while adhering to industry best practices and ensuring 
+          optimal user experiences.
+        </p>
+        <a class="emoji" href="https://github.com/DTNevaeha" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-github" style="font-size: 35px"></i
+        ></a>
+        <a
+          class="emoji"
+          href="https://www.linkedin.com/in/blake-ellsworth-146481105/" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-linkedin-square" style="font-size: 35px"></i></a>
       </div>
       <div class="split right">
         <div class="portfolio">
-          <div class="education">
-            <h2>Education and Training</h1>
-                2019-2020
-                <div class="training">
-                  <p><a class="link" href="https://apprenticareers.org/apply/">
-                    Software Engineer Bootcamp - Apprenti <span>&#8599;</span></a></p>
-                  <p>Master's in School Administration - NSU</p>
-                  <p>Bachelor's in Earth & Space Science - NSU</p>
-                  <p>Bachelor in Software Engineer - UOP</p>
-                </div>
+          <p id="story">
+            Transitioning from a successful career in the Air Force, I have 
+            seamlessly translated my discipline, leadership, and problem-solving 
+            skills into the dynamic field of software development.<br><br>
+            With a solid foundation in both military operations and software 
+            engineering, I have honed my ability to adapt to new challenges, 
+            work in diverse teams, and maintain a structured approach to 
+            achieving goals.<br><br>
+            As a software developer, I leverage this unique blend of experiences 
+            to create innovative and robust solutions while fostering a 
+            collaborative and goal-oriented work environment.
+          </p>
+        </div>
+        <br>
+        <div class="portfolio">
+          <h2 class="titles">Education and Training <i class="fa fa-book" style="font-size:24px"></i></h2>
+          <div class="training">
+            <p class="info">Software Engineer Bootcamp - <a class="link" 
+              href="https://apprenticareers.org/apply/" target="_blank" rel="noopener noreferrer">Apprenti
+              <span>&#8599;</span></a><br>
+              Master's in School Administration<br>
+              Bachelor's in Earth & Space Science<br>
+              Bachelor in Software Engineer
+            </p>
           </div>
-          <div class="work">
-            <h2>Work History</h1>
-            <p>Freelance</p>
-            <p>Software Development Engineer - Amazon</p>
+          <br>
+        </div>
+        <div class="portfolio">
+          <h2 class="titles">Software Development Work History <i class="fa fa-keyboard-o" style="font-size:24px"></i></h2>
+          <h3 class="heading">2023 - Current: Freelance</h3>
+          <p class="info">
+            As a self-employed Software Developer, I have established myself
+              as a versatile professional with expertise in developing and 
+              delivering high-quality software solutions across various domains. 
+              With a strong foundation in programming, software engineering, 
+              and project management, I am dedicated to meeting clients' unique 
+              requirements and exceeding their expectations. My experience 
+              encompasses designing, coding, testing, and deploying applications 
+              while adhering to industry best practices and ensuring optimal user 
+              experiences.
+          </p>
+          <h3 class="heading">2022 - 2023: Software Development Engineer - Amazon</h3>
+          <p class="info">
+            As an MLOps Engineer at Amazon, I specialized in implementing and 
+            optimizing Machine Learning Operations (MLOps) practices to enhance 
+            efficiency and effectiveness in deploying, managing, and monitoring 
+            machine learning models. Leveraging my expertise in cloud technologies 
+            and data science, I developed and maintain robust, scalable, and secure 
+            MLOps pipelines. My role involved integrating AI model dashboards 
+            into production systems, ensuring their reliability, and enabling 
+            seamless end-to-end workflows.
+          </p>
+        </div>
+        <div class="portfolio">
+          <h2 class="titles">Projects <i class="fa fas fa-gamepad" style="font-size:24px"></i></h2>
+          <div class="rpg">
+            <p>
+              <a class="link" href="https://github.com/DTNevaeha/Top_Down_RPG_Template" target="_blank" rel="noopener noreferrer">
+              Top-Down RPG Template <span>&#8599;</span>
+            </p>
+              <img src="./app/images/rpg.jpg" alt="Top-Down RPG Template"></a>
+            <p class="info">
+              Top_Down_RPG_Template is a template starter pack for creating
+              a RPG in Python using pygames. Developed in Python using Pygame
+              library. This game features movement, animations, projectiles,
+              and more. This project was originally created for self learning
+              purposes, but may be used as an initial setup for creating an RPG.
+            </p>
           </div>
-          <div class="projects">
-            <h2>Projects</h1>
-              <div class="rpg">
-                <img src="" alt="Top-Down RPG Template">
-                <p><a class="link" href="https://github.com/DTNevaeha/Top_Down_RPG_Template">
-                  Top-Down RPG Template <span>&#8599;</span></a></p>
-                <p>Info</p>
-              </div>
-              <div class="flappy">
-                <img src="" alt="Flappy Ball">
-                <p><a class="link" href="https://github.com/DTNevaeha/Flappy_Ball">
-                  Flappy Ball <span>&#8599;</span></a></p>
-                <p>Info</p>
-              </div>
-              <div class="collector">
-                <img src="" alt="Collector Game">
-                <p><a class="link" href="https://github.com/DTNevaeha/simple_collector_game">
-                  Collector Game <span>&#8599;</span></a></p>
-                <p>Info</p>
-              </div>
+          <div class="flappy">
+            <p><a class="link" href="https://github.com/DTNevaeha/Flappy_Ball" target="_blank" rel="noopener noreferrer">
+                Flappy Ball <span>&#8599;</span>
+            </p>
+            <img src="./app/images/flappy_ball.jpg" alt="Flappy Ball"></a>
+            <p class="info">
+              Flappy Ball is a simple 2D game developed in Python using the 
+              Pygame library. The game features a player-controlled character 
+              that must navigate through moving obstacles while accumulating 
+              points as they progress. 
+            </p>
+          </div>
+          <div class="collector">
+            <p>
+              <a class="link" href="https://github.com/DTNevaeha/simple_collector_game" target="_blank" rel="noopener noreferrer">
+              Collector Game <span>&#8599;</span>
+            </p>
+            <img src="./app/images/collector.jpg" alt="Collector Game"></a>
+            <p class="info">
+              Simple collector is a simple 2D game developed in Python using 
+              the Pygame library. The game features a player-controlled character 
+              that must collect items to accumule points as they progress.
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+    <script src="https://unpkg.com/split.js/dist/split.min.js" target="_blank" rel="noopener noreferrer"></script>
     <script>
       Split([".left", ".right"], {
         gutterSize: 5,
-        sizes: [50, 50],
+        sizes: [30, 70],
       });
     </script>
 
