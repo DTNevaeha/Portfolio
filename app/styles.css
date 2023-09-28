@@ -5,7 +5,8 @@
 body {
   margin: 0;
   height: 210vh;
-  color: #FCE09B;
+  width: 100%;
+  color: #fce09b;
 }
 
 .main_body {
@@ -25,12 +26,12 @@ body {
 }
 
 .left {
-  background-image: linear-gradient(to bottom left, #283d3b , #197278 );
+  background-image: linear-gradient(to bottom left, #283d3b, #197278);
   text-align: left;
 }
 
 .right {
-  background-image: linear-gradient(to bottom right, #283d3b, #197278 );
+  background-image: linear-gradient(to bottom right, #283d3b, #197278);
 }
 
 .gutter {
@@ -54,7 +55,7 @@ body {
 
 .titles {
   font-size: 25px;
-  color: #B2533E;
+  color: #b2533e;
 }
 
 .rpg {
@@ -110,17 +111,17 @@ body {
   display: flex;
   align-items: center;
   border-radius: 9999px;
-  background-color: rgba(45,212,191,.1);
+  background-color: rgba(45, 212, 191, 0.1);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 500;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
-  color: rgb(94 234 212/var(--tw-text-opacity));
+  color: rgb(94 234 212 / var(--tw-text-opacity));
 }
 
 .skills {
